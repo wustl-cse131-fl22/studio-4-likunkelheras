@@ -20,5 +20,10 @@ public class InterpretDrawingFile {
 		File f = new File(chooser.getSelectedFile().getPath());
 		Scanner in = new Scanner(f); //making Scanner with a File
 		
+		String resultStign = in.next();
+		System.out.println(resultStign);
+		double test = in.nextDouble();
+		System.out.println(test);
+		
 	}
 }
